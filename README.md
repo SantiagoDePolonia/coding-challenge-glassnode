@@ -1,8 +1,10 @@
 Steps to run:
+===
+0. `git clone https://github.com/SantiagoDePolonia/coding-challenge-glassnode`
 1. `yarn install`
 2. `cp ./src/constants/glassnode_key.js.template ./src/constants/glassnode_key.js`
 3. Provide the API KEY into ./src/constants/glassnode_key.js file from studio.glassnode.com site.
-
+4. `yarn start`
 
 TODO
 ===
@@ -22,6 +24,10 @@ TODO
   - next go to /hash-rate
   - go to /difficulty
   - you will see the chart for a while and the loading and after a while the chart again
+- replace "Values" strings on the left side of the chart with adequate labels OR get rid of them
+- providing timespan selector to the chart - the tool to help people taka a closer look for a specific period
+- investigate the bug on hash-rate chart - at some points the tooltip is not displaing the data
+- add some breaking line on the chart between USD price chart and the chain metrics
 - resolve code duplication dilemma
 
 
@@ -40,4 +46,4 @@ Links
 ===
 
 - [Challenge description](./README_TASK.md)
-- [Default README Create React App](./README_CRA.md)
+- [Default README created by Create React App](./README_CRA.md)
